@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greeter</title>
+    <link rel="stylesheet" href="styll.css">
+ </head>
+ <body>
+  <h1>"jagdish ji"</h1>
+<h2>welcome to table generator page</h1>
+
+ <input type="number" id="hii" placeholder="enter the number">
+ <button onclick="tableprint()"> click on</button>  
+ <p id="he"></p>
+ 
+ <script>
+ 
+function tableprint(){
+
+  let num = document.getElementById("hii").value
+  let result = document.getElementById("he")
+   let hello = "";
+   for(let i = 1; i<=10 ; i++){
+    hello += num + " × " + i + " = " + (num * i) + "<br>";
+   }
+result.innerHTML = hello;
+}
+ </script>
+  
+ 
+ </body>
+ </html>
