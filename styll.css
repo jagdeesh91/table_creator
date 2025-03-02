@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(59, 180, 180);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1 ,h2{
+    color: rgb(31, 14, 44);
+    text-transform: uppercase;
+}
